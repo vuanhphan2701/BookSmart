@@ -1,5 +1,4 @@
-BookSmart - Smart Online Bookstore Project.
-This is a project for building an e-commerce website specializing in books, written in pure PHP following the MVC (Model-View-Controller) architecture. The project includes functionalities for both users (customers) and administrators (admins).
+BookSmart - Smart Online Bookstore Project: This is a project for building an e-commerce website specializing in books, written in pure PHP following the MVC (Model-View-Controller) architecture. The project includes functionalities for both users (customers) and administrators (admins).
 - Main Features:
   + Users: Register/Login, Profile Management, Shopping Cart, Wishlist, Order Placement (COD, VNPAY, Stripe), Order History, Product Reviews, Book Recommendation Chatbot...
   + Admin: User Management, Product Management, Order Management, Role-based Access Control.
