@@ -1,0 +1,133 @@
+.alert {
+  padding: 1rem 2rem;
+  margin: 1rem auto 2rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.alert i {
+  font-size: 1.2rem;
+}
+
+.alert.success {
+  color: #155724;
+  background-color: #d4edda;
+}
+
+.alert.error {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.alert-content {
+  flex: 1;
+}
+
+.alert-content h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.alert-content p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.alert a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.alert a:hover {
+  text-decoration: underline;
+}
+
+.error-message,
+.validation-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.error-message.show,
+.validation-message.show {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.error-message i,
+.validation-message i {
+  font-size: 1rem;
+  opacity: 1;
+}
+
+.register__input.error {
+  border-color: #dc3545;
+  transition: border-color 0.3s ease;
+}
+
+.password-requirements {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.requirement {
+  margin: 0.25rem 0;
+  transition: color 0.3s ease;
+}
+
+.requirement.valid {
+  color: #28a745;
+}
+
+.requirement.invalid {
+  color: #dc3545;
+}
+
+.validation-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.validation-message i {
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.validation-message.show {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.validation-message.show i {
+  opacity: 1;
+}
