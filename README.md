@@ -5,11 +5,12 @@ BookSmart - Smart Online Bookstore Project: This is a project for building an e-
 - Technologies: PHP (Core), MVC, MySQL, HTML/CSS/JavaScript (AJAX), VNPAY API, Stripe API.
 - XAMPP setup version: PHP 8.2.12
 - Clone repository in folder htdocs of XAMPP
-- Import file database 'users' in MySQL ('http://localhost/phpmyadmin/')
+- Open 'http://localhost/phpmyadmin/' and import the file 'users.sql'.
 - Payment Configuration Guide:
   + The system requires users to register and configure their own payment API keys:
   + Stripe: Register for a developer account to obtain test keys
   + VNPAY: Create merchant account on sandbox
-  + Insert VNPAY APIKEY: private $stripeSecretKey = 'APIKey'; Put the following line in the file: c:\xampp\htdocs\BookSmart\BookShop\MVC\controller\PaymentController.php
+  + Insert VNPAY APIKEY: private $stripeSecretKey = 'APIKey' Put the following line in the file: c:\xampp\htdocs\BookSmart\BookShop\MVC\controller\PaymentController.php
+=> Now you can run the project as expected.
   
 
