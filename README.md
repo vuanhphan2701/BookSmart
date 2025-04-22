@@ -11,6 +11,7 @@ BookSmart - Smart Online Bookstore Project: This is a project for building an e-
   + Stripe: Register for a developer account to obtain test keys
   + VNPAY: Create merchant account on sandbox
   + Insert VNPAY APIKEY: private $stripeSecretKey = 'APIKey' Put the following line in the file: c:\xampp\htdocs\BookSmart\BookShop\MVC\controller\PaymentController.php
+  
 => Now you can run the project as expected.
   
 
